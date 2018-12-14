@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class WaluigiController : MonoBehaviour {
     enum Direction { left, right, up, down }
-    const float animationTimeCooldown = 0.65f;
+    const float animationTimeCooldown = .25f;
     bool isAttacking;
     float attackCooldown;
     Vector2 direction = Vector2.right;
-    float rayDistance = 0.4f;
+    float rayDistance = 1f;
     Animator dAnimator;
     Rigidbody2D rb;
     private bool isDigging = false;
@@ -17,6 +17,7 @@ public class WaluigiController : MonoBehaviour {
     GameObject rayCastedObject;
     GameObject lasthose;
     Vector3 farAway;
+
     //Game State
     public int totalPoints, livesRemaining, currentLevel;
     GameObject score, lives;
@@ -34,10 +35,12 @@ public class WaluigiController : MonoBehaviour {
     int startBlocksTouched;
     Vector3 PlayerPos;
     Vector2 lastDirection;
+
+    
     // Use this for initialization
     void Start()
     {
-        transform.position = new Vector3(-0.65f, 0.64f, 0);
+        transform.position = new Vector3(5.28f, 8.98f, 0);
         farAway = new Vector3(-1000, -1000, 0);
         lastDirection = Vector2.right;
         dAnimator = GetComponent<Animator>();
@@ -72,7 +75,7 @@ public class WaluigiController : MonoBehaviour {
         Physics.IgnoreLayerCollision(ingnoreLayer, defaultLayer, true);
         if (livesRemaining == 0)
         {
-            Application.LoadLevel(0);
+         //   Application.LoadLevel(0);
         }
     }
     // Update is called once per frame
@@ -166,11 +169,11 @@ public class WaluigiController : MonoBehaviour {
                 PlayerPrefs.SetInt("score", totalPoints);
                 PlayerPrefs.SetInt("lives", livesRemaining);
                 PlayerPrefs.SetInt("MainLevel1", ++currentLevel);
-                Application.LoadLevel(2);
+               // Application.LoadLevel(2);
             }
             else
             {
-                Application.LoadLevel(0);
+              //  Application.LoadLevel(0);
             }
         }
     }
@@ -244,7 +247,7 @@ public class WaluigiController : MonoBehaviour {
         Vector2 StartPosition = transform.position;
         Vector2 EndPosition = StartPosition + dir;
         RaycastHit2D hit = Physics2D.Linecast(StartPosition, EndPosition);
-        Debug.DrawLine(StartPosition, EndPosition, Color.red, 2, false);
+        Debug.DrawLine(StartPosition, EndPosition, Color.red, 1, false);
         if (hit.collider != null && hit.collider.gameObject.tag == "Block" && isDigging)
         {
             //Debug.Log("CheckBlockInDirection->HIT");
@@ -306,6 +309,7 @@ public class WaluigiController : MonoBehaviour {
         if (dir.x != 0)
         {
             return true;
+            
         }
         else
         {
@@ -318,7 +322,7 @@ public class WaluigiController : MonoBehaviour {
         {
             Destroy(rayCastedObject);
             rayCastedObject = null;
-            isDigging = false;
+            isDigging = true;
             blocksBroken++;
         }
     }
@@ -328,10 +332,11 @@ public class WaluigiController : MonoBehaviour {
         {
             Destroy(lastObjectTouched);
             lastObjectTouched = null;
-            isDigging = false;
+            isDigging = true;
 
             blocksBroken++;
         }
+        
     }
     /*
      On arrow key, do ray check to see if block in the way, then move through, sticking to surface
@@ -353,6 +358,7 @@ public class WaluigiController : MonoBehaviour {
     }
     void StartSequence()
     {
+        
         if (startBlocksTouched != 5)
         {
             PlayerPos.y -= moveSpeed;
@@ -472,7 +478,7 @@ public class WaluigiController : MonoBehaviour {
         PlayerPrefs.SetInt("score", totalPoints);
         PlayerPrefs.SetInt("lives", livesRemaining);
         PlayerPrefs.SetInt("MainLevel1", currentLevel);
-        Application.LoadLevel(currentLevel);
+        //Application.LoadLevel(currentLevel);
     }
 }
 

@@ -552,7 +552,7 @@ public class SmashBallController : MonoBehaviour {
             else
             {
                 atkTimer += Time.deltaTime;
-                fire.transform.position = new Vector3(-100, -100, 0);
+                fire.transform.position = new Vector3(100f, 100f, 0);
             }
         }
     }
