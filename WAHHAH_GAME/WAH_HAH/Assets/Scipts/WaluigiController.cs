@@ -4,18 +4,23 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class WaluigiController : MonoBehaviour {
+
     enum Direction { left, right, up, down }
     const float animationTimeCooldown = .25f;
     bool isAttacking;
     float attackCooldown;
+
     Vector2 direction = Vector2.right;
-    float rayDistance = 1f;
+    float rayDistance = 0.65f;
+
     Animator dAnimator;
     Rigidbody2D rb;
+
     private bool isDigging = false;
     GameObject lastObjectTouched;
     GameObject rayCastedObject;
     GameObject lasthose;
+
     Vector3 farAway;
 
     //Game State
@@ -29,13 +34,16 @@ public class WaluigiController : MonoBehaviour {
     bool IsDiggingHorizontally;
     bool IsDiggingUp;
     bool IsDiggingDown;
-    float moveSpeed = 0.02f;
+    float moveSpeed = 0.04f;
+
     bool startSequence;
     int blocksBroken;
     int startBlocksTouched;
+
     Vector3 PlayerPos;
     Vector2 lastDirection;
 
+    public GameObject GroundDestroyer;
     
     // Use this for initialization
     void Start()
@@ -48,12 +56,16 @@ public class WaluigiController : MonoBehaviour {
         IsWalking = false;
         IsWalkingDown = false;
         IsWalkingUp = false;
+
         IsDiggingUp = false;
         IsDiggingDown = false;
         IsDiggingHorizontally = false;
+
         startSequence = true;
         blocksBroken = 0;
+
         startBlocksTouched = 0;
+
         totalPoints = PlayerPrefs.GetInt("score");
         livesRemaining = PlayerPrefs.GetInt("lives");
         enemiesRemaining = PlayerPrefs.GetInt("enemies");
@@ -84,9 +96,12 @@ public class WaluigiController : MonoBehaviour {
         InputHandling();
         CheckBlockInDirection(direction);
         CheckEnemiesInAttackDirection(lastDirection);
+
         UpdatePlayerPosition();
         NotifyEnemiesOfPosition();
+
         UpdateText();
+
         UpdateAnimatorData();
         DestroyBlockRay();
         WinLevel();
@@ -130,15 +145,20 @@ public class WaluigiController : MonoBehaviour {
             DrawHose();
             attackCooldown = 0.4f;
             isAttacking = false;
+
             dir *= 1.5f;
+
             Vector2 StartPosition = transform.position;
             Vector2 EndPosition = StartPosition + dir;
+
             Vector3 endLineDraw = transform.position;
             endLineDraw.x += dir.x;
             endLineDraw.y += dir.y;
+
             RaycastHit2D hit = Physics2D.Linecast(StartPosition, EndPosition);
             Debug.DrawLine(transform.position, endLineDraw, Color.red, 2, false);
             //Debug.Break();
+
             if (hit.collider != null &&
                 (hit.collider.gameObject.tag == "Enemy")
                 || (hit.collider.gameObject.tag == "Inflated"))
@@ -184,6 +204,7 @@ public class WaluigiController : MonoBehaviour {
     void InputHandling()
     {
         direction = new Vector2(0, 0);
+
         if (Input.GetKey("right"))
         {
             direction = Vector2.right;
@@ -244,8 +265,10 @@ public class WaluigiController : MonoBehaviour {
     void CheckBlockInDirection(Vector2 dir)
     {
         dir *= rayDistance;
+
         Vector2 StartPosition = transform.position;
         Vector2 EndPosition = StartPosition + dir;
+
         RaycastHit2D hit = Physics2D.Linecast(StartPosition, EndPosition);
         Debug.DrawLine(StartPosition, EndPosition, Color.red, 1, false);
         if (hit.collider != null && hit.collider.gameObject.tag == "Block" && isDigging)
@@ -271,12 +294,12 @@ public class WaluigiController : MonoBehaviour {
             {
                 case 1:
                     {
-                        increment = boxSize * scale / 2.2f;
+                        increment = boxSize * scale / 2f;
                         break;
                     }
                 case 2:
                     {
-                        increment = (-1) * boxSize * scale / 2.2f;
+                        increment = (-1) * boxSize * scale / 2f;
                         break;
                     }
                 default:
@@ -291,12 +314,12 @@ public class WaluigiController : MonoBehaviour {
             {
                 StartPosition.x += increment;
             }
-            EndPosition = StartPosition + dir * 0.38f;
+            EndPosition = StartPosition + dir * .5f;
             //Check if clear
             hit = Physics2D.Linecast(StartPosition, EndPosition);
             Debug.DrawLine(StartPosition, EndPosition, Color.red, 2, false);
             isClear = isClear && !(hit.collider != null &&
-                               (hit.collider.gameObject.tag == "Block" ||
+              (hit.collider.gameObject.tag == "Block" ||
                hit.collider.gameObject.tag == "Enemy" ||
                hit.collider.gameObject.tag == "Wall" ||
                hit.collider.gameObject.tag == "Rock"
@@ -350,6 +373,10 @@ public class WaluigiController : MonoBehaviour {
             {
                 startBlocksTouched++;
             }
+        }
+        if (GroundDestroyer != null && isDigging == true)
+        {
+            DestroyBlock();
         }
         else if (other.gameObject.tag == "Enemy" || other.gameObject.tag == "Rock")
         {
