@@ -116,14 +116,14 @@ public class SmashBallController : MonoBehaviour {
         Vector3 offset;
         if (direct.x > 0)
         {
-            fire.transform.localScale = new Vector3(3.5f, 3.5f, 0);
-            offset = Vector3.right * 0.5f;
+            fire.transform.localScale = new Vector3(-1f , 1f, 0);
+            offset = Vector3.right * 0.75f;
             fire.transform.position = transform.position + offset;
         }
         else if (direct.x < 0)
         {
-            fire.transform.localScale = new Vector3(-3.5f, 3.5f, 0);
-            offset = Vector3.left * 0.5f;
+            fire.transform.localScale = new Vector3(1f, 1f, 0);
+            offset = Vector3.left * 0.75f;
             fire.transform.position = transform.position + offset;
         }
     }
@@ -242,7 +242,7 @@ public class SmashBallController : MonoBehaviour {
         float x = Mathf.Abs(direction.x);
         float y = Mathf.Abs(direction.y);
         int coinFlip = 0;
-        if (dir1Clear && dir1Clear)
+        if (dir1Clear && dir2Clear)
         {
             coinFlip = Random.Range(0, 1);
             if (coinFlip == 0)
