@@ -66,8 +66,10 @@
     <Compile Include="Assets\Scipts\NEWWALUIGICONTROLLER.cs" />
     <Compile Include="Assets\Scipts\OnLoadScript.cs" />
     <Compile Include="Assets\Scipts\SmashBallController.cs" />
+    <Compile Include="Assets\Scipts\TRYOUTSHIT\TileAutomatic.cs" />
     <Compile Include="Assets\Scipts\WaluigiController.cs" />
     <Compile Include="Assets\Scipts\YOSHIController.cs" />
+    <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/Users/Jim/Documents/WAH_HAH/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
