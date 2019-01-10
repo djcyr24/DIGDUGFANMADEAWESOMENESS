@@ -50,7 +50,7 @@ public class WaluigiController20002 : MonoBehaviour
 
     void Start()
     {
-        transform.position = new Vector3(5.28f, 8.98f, 0);
+        transform.position = new Vector3(21f, 9f, 0);
         farAway = new Vector3(-1000, -1000, 0);
         lastDirection = Vector2.right;
         dAnimator = GetComponent<Animator>();
@@ -450,6 +450,7 @@ public class WaluigiController20002 : MonoBehaviour
             else if (direction.x != 0)
             {
                 IsDiggingHorizontally = true;
+             
                 IsDiggingDown = false;
                 IsDiggingUp = false;
             }

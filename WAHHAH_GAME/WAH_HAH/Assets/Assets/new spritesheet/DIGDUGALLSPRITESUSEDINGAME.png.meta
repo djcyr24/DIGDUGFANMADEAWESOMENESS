@@ -1,0 +1,1296 @@
+fileFormatVersion: 2
+guid: a98a933a884adf7488a1f2d3f650a1f3
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: DIGDUGALLSPRITESUSEDINGAME_0
+    21300002: DIGDUGALLSPRITESUSEDINGAME_1
+    21300004: DIGDUGALLSPRITESUSEDINGAME_2
+    21300006: DIGDUGALLSPRITESUSEDINGAME_3
+    21300008: DIGDUGALLSPRITESUSEDINGAME_4
+    21300010: DIGDUGALLSPRITESUSEDINGAME_5
+    21300012: DIGDUGALLSPRITESUSEDINGAME_6
+    21300014: DIGDUGALLSPRITESUSEDINGAME_7
+    21300016: DIGDUGALLSPRITESUSEDINGAME_8
+    21300018: DIGDUGALLSPRITESUSEDINGAME_9
+    21300020: DIGDUGALLSPRITESUSEDINGAME_10
+    21300022: DIGDUGALLSPRITESUSEDINGAME_11
+    21300024: DIGDUGALLSPRITESUSEDINGAME_12
+    21300026: DIGDUGALLSPRITESUSEDINGAME_13
+    21300028: DIGDUGALLSPRITESUSEDINGAME_14
+    21300030: DIGDUGALLSPRITESUSEDINGAME_15
+    21300032: DIGDUGALLSPRITESUSEDINGAME_16
+    21300034: DIGDUGALLSPRITESUSEDINGAME_17
+    21300036: DIGDUGALLSPRITESUSEDINGAME_18
+    21300038: DIGDUGALLSPRITESUSEDINGAME_19
+    21300040: DIGDUGALLSPRITESUSEDINGAME_20
+    21300042: DIGDUGALLSPRITESUSEDINGAME_21
+    21300044: DIGDUGALLSPRITESUSEDINGAME_22
+    21300046: DIGDUGALLSPRITESUSEDINGAME_23
+    21300048: DIGDUGALLSPRITESUSEDINGAME_24
+    21300050: DIGDUGALLSPRITESUSEDINGAME_25
+    21300052: DIGDUGALLSPRITESUSEDINGAME_26
+    21300054: DIGDUGALLSPRITESUSEDINGAME_27
+    21300056: DIGDUGALLSPRITESUSEDINGAME_28
+    21300058: DIGDUGALLSPRITESUSEDINGAME_29
+    21300060: DIGDUGALLSPRITESUSEDINGAME_30
+    21300062: DIGDUGALLSPRITESUSEDINGAME_31
+    21300064: DIGDUGALLSPRITESUSEDINGAME_32
+    21300066: DIGDUGALLSPRITESUSEDINGAME_33
+    21300068: DIGDUGALLSPRITESUSEDINGAME_34
+    21300070: DIGDUGALLSPRITESUSEDINGAME_35
+    21300072: DIGDUGALLSPRITESUSEDINGAME_36
+    21300074: DIGDUGALLSPRITESUSEDINGAME_37
+    21300076: DIGDUGALLSPRITESUSEDINGAME_38
+    21300078: DIGDUGALLSPRITESUSEDINGAME_39
+    21300080: DIGDUGALLSPRITESUSEDINGAME_40
+    21300082: DIGDUGALLSPRITESUSEDINGAME_41
+    21300084: DIGDUGALLSPRITESUSEDINGAME_42
+    21300086: DIGDUGALLSPRITESUSEDINGAME_43
+    21300088: DIGDUGALLSPRITESUSEDINGAME_44
+    21300090: DIGDUGALLSPRITESUSEDINGAME_45
+    21300092: DIGDUGALLSPRITESUSEDINGAME_46
+    21300094: DIGDUGALLSPRITESUSEDINGAME_47
+    21300096: DIGDUGALLSPRITESUSEDINGAME_48
+    21300098: DIGDUGALLSPRITESUSEDINGAME_49
+    21300100: DIGDUGALLSPRITESUSEDINGAME_50
+    21300102: DIGDUGALLSPRITESUSEDINGAME_51
+    21300104: DIGDUGALLSPRITESUSEDINGAME_52
+    21300106: DIGDUGALLSPRITESUSEDINGAME_53
+    21300108: DIGDUGALLSPRITESUSEDINGAME_54
+    21300110: DIGDUGALLSPRITESUSEDINGAME_55
+    21300112: DIGDUGALLSPRITESUSEDINGAME_56
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_0
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 124
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799dcdf34b30e8a44bf70f9591460742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 125
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f7498d2c3a7eb4e965fdcdf2996dd8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_2
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 124
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e215777c53a971640836a27fa4df7d77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 125
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611c8114a99c1af4b979806726d18731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_4
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 125
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1c35c1e2a6f6746a3d3268d7ee96ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 123
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79aa9e6783518184e87b7e7f543d410f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_6
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 125
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05905f26fc262284ea96a0e18cdc9e24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_7
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 123
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785091a0f688baa41ae8bce4265f7223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_8
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 94
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481a1db51bde7534cabfd8b2e0200621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_9
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 95
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9802df915bcf195408fe5baacc3f22e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 94
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438f1ae3f75dfa144995e63a1f2664cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_11
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 94
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f75c423b885a44590b6c97fbecd1e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_12
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 94
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6a1de766076734c86ac57680f3807c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_13
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 94
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cfddbd22395a64fba4ac22c9d4c699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_14
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 94
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e83fef6f3207d44f896414c42ef7016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_15
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 92
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9738ff861708c02498b5efed15389d60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915efa86bc0bc3e44a801ecf409141d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_17
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 64
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1406e7987070244bade6c26a1b9395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_18
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000f4288b5129774b800e285996b46fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_19
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a226eb06d83ff48bedec85e5ba5a48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_20
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 64
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8d59d35024886499a5dc9077e9d7d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_21
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c46de840e0fd3449aeb0569ff77326d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_22
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44e307c540c2774e8b56723b6ec68b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_23
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763a6d585ca061a4c80ec824956226b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_24
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfa74e9ba83c74478b2326a04095e1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_25
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 65
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce5822196b3077428445d2f40d9087d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_26
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 64
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec08075aa940944cb1fe976412049ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_27
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 65
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aaa3f8be5ad0ad488d68d18f88dc380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_28
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 64
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ef3af9015184b44b2388d904205088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_29
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f260f8404a82d4092543e75b519cae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_30
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c20d64a900dfb4b90a646317621339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_31
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958a081d1c31e924c963b880bc3657ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_32
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1148e01f1e8134894871f8962020ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_33
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 33
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5402620c2886343a22b0018054233a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_34
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 29
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b289e29dfb460cb48917814a52359363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_35
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 31
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bce9af595d7ee439ff4d548fa832f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_36
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab95a83efccd13a4e87fb3d5a1e7dfaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_37
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1763e6f4cad49c04b8d04c1a69d16335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_38
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5585760678a301348a350e954bc490fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_39
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81ca99639a4a914d8290ea5f09714ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_40
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 39
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1978692a79702438c456f49b8c433d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_41
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 29
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100e7c721920efd45b2d3071fbaa4f78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_42
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 39
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596372a3a7b52ee48b63c127f23e1bbe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_43
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 29
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ec2a28dafd73e43969a7252490addb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebb805cb1b5a4d4280bb516025e7362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_45
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 4
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8578ecbdee59d4bb4a4075e281bd73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_46
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 4
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2570a019402c1ee47bd00b8822af9f0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_47
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 3
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b8cc9a54bdd9f4b8498ee82e21871a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_48
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 4
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe483170538dd7541b29a38f750ad5ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_49
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 4
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b4edebb26ab724bb3b7879f366c90f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_50
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 6
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2752746a6c096d747b02a04d67f30f60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_51
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 3
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2d39ab7d5c5c84eab5cfed405daac0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_52
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59557f9eebc4af948badedc8d292b70c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_53
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 0
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f03d11834846046b7d731de86355e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_54
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 0
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1110dc6abe268c145b33a6f63cfc5baf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_55
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 4
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f876d9ad881e1b14285ec5800b5d5827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIGDUGALLSPRITESUSEDINGAME_56
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 63
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32aece4eac47c5d468931fb82dd51389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b519746771c88e74bb11d561567eb78b
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
