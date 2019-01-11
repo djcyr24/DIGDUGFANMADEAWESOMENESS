@@ -30,6 +30,7 @@ public class WaluigiController20002 : MonoBehaviour
 
     //animator Booleans
     public bool IsWalking;
+    public bool IsDiggingSE;
     bool IsWalkingUp;
     bool IsWalkingDown;
     bool IsDiggingHorizontally;
@@ -54,6 +55,7 @@ public class WaluigiController20002 : MonoBehaviour
         IsWalking = false;
         IsWalkingUp = false;
         IsWalkingDown = false;
+        IsDiggingSE = false;
 
         IsDiggingDown = false;
         IsDiggingUp = false;
@@ -414,6 +416,7 @@ public class WaluigiController20002 : MonoBehaviour
             IsWalking = false;
             IsWalkingUp = false;
             IsWalkingDown = false;
+            IsDiggingSE = true;
             if (direction.y > 0)
             {
                 IsDiggingUp = true;
@@ -466,6 +469,7 @@ public class WaluigiController20002 : MonoBehaviour
                 IsWalking = false;
                 IsWalkingUp = false;
                 IsWalkingDown = false;
+                IsDiggingSE = false;
             }
         }
         Vector3 currentScale = transform.localScale;

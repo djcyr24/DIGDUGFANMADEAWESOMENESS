@@ -11,7 +11,7 @@ public class SoundManager : MonoBehaviour {
     private float volHighRange = 1.0f;
 
     void Update() {
-        if (player.IsWalking)
+        if (player.IsWalking || player.IsDiggingSE)
         {
             source.UnPause();
         } else
