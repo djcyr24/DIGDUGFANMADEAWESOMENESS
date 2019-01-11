@@ -276,7 +276,7 @@ public class YOSHIController : MonoBehaviour {
             enemy.SendMessage("AllyDead");
         }
         GameObject.FindGameObjectWithTag("Player").SendMessage("KilledEnemy", points);
-    }
+    }           
     void AllyDead()
     {
         alliesRemaining--;

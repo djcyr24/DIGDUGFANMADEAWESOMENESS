@@ -90,6 +90,7 @@ public class SmashBallController : MonoBehaviour {
         {
             SetCollisionWithPlayer(false);
             timeCheck += Time.deltaTime;
+
             if (inflationLvl > 3)
             {
                 InitiateDeath(1);
@@ -111,22 +112,7 @@ public class SmashBallController : MonoBehaviour {
         anim.SetInteger("inflation", inflationLvl);
         anim.SetBool("ghost", ghostMode);
     }
-    void DrawFire(Vector2 direct)
-    {
-        Vector3 offset;
-        if (direct.x > 0)
-        {
-            fire.transform.localScale = new Vector3(-1f , 1f, 0);
-            offset = Vector3.right * 0.75f;
-            fire.transform.position = transform.position + offset;
-        }
-        else if (direct.x < 0)
-        {
-            fire.transform.localScale = new Vector3(1f, 1f, 0);
-            offset = Vector3.left * 0.75f;
-            fire.transform.position = transform.position + offset;
-        }
-    }
+
 
     void MoveEnemy()
     {
@@ -392,8 +378,7 @@ public class SmashBallController : MonoBehaviour {
                (hit.collider.gameObject.tag == "Block" ||
                hit.collider.gameObject.tag == "Enemy" ||
                hit.collider.gameObject.tag == "Wall" ||
-               hit.collider.gameObject.tag == "Rock"
-               ));
+               hit.collider.gameObject.tag == "Rock" ));
         }
         return isClear;
     }
@@ -414,7 +399,7 @@ public class SmashBallController : MonoBehaviour {
     }
     void IncreaseInflation()
     {
-        inflationLvl++;
+        inflationLvl+=1;
     }
     void HitByRock()
     {
@@ -424,6 +409,7 @@ public class SmashBallController : MonoBehaviour {
     {
         //Award Points
         float depth;
+
         if (transform.position.y > 0)
         {
             depth = transform.position.y + 1;
@@ -554,6 +540,22 @@ public class SmashBallController : MonoBehaviour {
                 atkTimer += Time.deltaTime;
                 fire.transform.position = new Vector3(100f, 100f, 0);
             }
+        }
+    }
+    void DrawFire(Vector2 direct)
+    {
+        Vector3 offset;
+        if (direct.x > 0)
+        {
+            fire.transform.localScale = new Vector3(-1f , 1f, 0);
+            offset = Vector3.right * 0.75f;
+            fire.transform.position = transform.position + offset;
+        }
+        else if (direct.x < 0)
+        {
+            fire.transform.localScale = new Vector3(1f, 1f, 0);
+            offset = Vector3.left * 0.75f;
+            fire.transform.position = transform.position + offset;
         }
     }
     void OnCollisionEnter2D(Collision2D other)

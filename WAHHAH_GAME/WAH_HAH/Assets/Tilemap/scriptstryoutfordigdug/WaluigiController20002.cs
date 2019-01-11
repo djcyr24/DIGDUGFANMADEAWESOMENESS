@@ -20,7 +20,6 @@ public class WaluigiController20002 : MonoBehaviour
     GameObject lasthose;
 
     Vector3 farAway;
-
     Vector3 PlayerPos;
     Vector2 lastDirection;
 
@@ -37,6 +36,7 @@ public class WaluigiController20002 : MonoBehaviour
     bool IsDiggingUp;
     bool IsDiggingDown;
     int enemiesRemaining;
+    bool isDead;
 
     //Game State
     public int livesRemaining, currentLevel;
@@ -60,8 +60,7 @@ public class WaluigiController20002 : MonoBehaviour
         IsDiggingDown = false;
         IsDiggingUp = false;
         IsDiggingHorizontally = false;
-
-     
+        isDead = false;
 
         startSequence = true;
         blocksBroken = 0;
@@ -134,7 +133,7 @@ public class WaluigiController20002 : MonoBehaviour
         if (isAttacking && attackCooldown == 0)
         {
             DrawHose();
-            attackCooldown = 0.4f;
+            attackCooldown = 0.2f;
             isAttacking = false;
 
             dir *= 2f;
@@ -485,5 +484,6 @@ public class WaluigiController20002 : MonoBehaviour
         dAnimator.SetBool("IsDiggingUp", IsDiggingUp);
         dAnimator.SetBool("IsDiggingDown", IsDiggingDown);
         dAnimator.SetBool("IsDiggingHorizontally", IsDiggingHorizontally);
+        dAnimator.SetBool("IsDead", isDead);
     }
 }
