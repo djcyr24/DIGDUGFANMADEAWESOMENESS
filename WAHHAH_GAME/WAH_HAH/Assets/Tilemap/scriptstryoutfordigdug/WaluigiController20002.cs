@@ -28,12 +28,8 @@ public class WaluigiController20002 : MonoBehaviour
     GameObject rayCastedObject;
     GameObject lastObjectTouched;
 
-    private AudioSource source;
-    private float volLowRange = 0f;
-    private float volHighRange = 1.0f;
-
     //animator Booleans
-    bool IsWalking;
+    public bool IsWalking;
     bool IsWalkingUp;
     bool IsWalkingDown;
     bool IsDiggingHorizontally;
@@ -78,9 +74,6 @@ public class WaluigiController20002 : MonoBehaviour
         var defaultLayer = LayerMask.NameToLayer("Default");
         Physics.IgnoreLayerCollision(ingnoreLayer, defaultLayer, true);
 
-        source = GetComponent<AudioSource>();
-        source.Play(0);
-
         if (livesRemaining == 0)
         {
             //   Application.LoadLevel(0);
@@ -100,20 +93,6 @@ public class WaluigiController20002 : MonoBehaviour
         UpdateAnimatorData();
         DestroyBlockRay();
         WinLevel();
-        MusicUpdate();
-
-    }
-
-    void MusicUpdate()
-    {
-        if (moveSpeed >= 0)
-        {
-            source.Pause();
-        }
-        else if (moveSpeed <=0)
-        {
-            source.UnPause();
-        }
     }
 
     void DrawHose()
